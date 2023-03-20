@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/scrollAnimations.css" />
     <script defer src="./js/scrollAnimations.js"></script>
     <script defer src="./js/register.js"></script>
+    <script defer src="./js/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 
 <body>
@@ -51,7 +53,7 @@
                             <a class="nav-link" href="#carouselSection">Carousel</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#faxSection">Fax</a>
+                            <a class="nav-link" href="#faqSection">Faq</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#graphSection">Graph</a>
@@ -232,13 +234,64 @@
                     </button>
                   </div>
             </section>
+<<<<<<< HEAD
                 
             <section id="faxSection">
+=======
+
+            <section id="faqSection" class="justify-content-center mb-6">
+                <h1 class="hidden text-center mb-4">Najczęściej zadawane pytania</h1>
+                <div class="accordion w-100 h-100" id="basicAccordion">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Gdzie podróżować?
+                        </button>
+                        </h2>
+                        <div id="basicAccordionCollapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-mdb-parent="#basicAccordion">
+                            <div class="accordion-body">
+                                <strong>Jednym z najlepszych kierunków jest Kostaryka. </strong> Dodatkowo polecamy również: ipsum dolor sit amet consectetur adipisicing elit. Voluptas, porro placeat! Voluptatibus, earum perspiciatis dolor sint impedit
+                                quidem temporibus inventore quis debitis adipisci vitae, eligendi et magnam ipsa sapiente ullam.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Ile to kosztuje?
+                        </button>
+                        </h2>
+                        <div id="basicAccordionCollapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-mdb-parent="#basicAccordion">
+                            <div class="accordion-body">
+                                <strong>Cena jest w zakresie od 1000zł do 20 000zł.</strong> Na cenę może miećwpływ sit amet consectetur adipisicing elit. Perspiciatis aliquam laboriosam recusandae velit facilis expedita nostrum tenetur, in sunt corporis
+                                iusto, veritatis eos enim fugit sapiente corrupti possimus quidem? Quibusdam.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-mdb-toggle="collapse" data-mdb-target="#basicAccordionCollapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Jak się przygotować do podróży?
+                        </button>
+                        </h2>
+                        <div id="basicAccordionCollapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-mdb-parent="#basicAccordion">
+                            <div class="accordion-body">
+                                <strong>Koniecznie weź ze sobą poszaport.</strong> Przydatny może być również Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor porro nam alias neque. Quae, obcaecati repellendus, dolorem consequuntur asperiores
+                                ea aperiam totam repellat iure esse nulla voluptas aspernatur, iste ex.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+>>>>>>> 62e8b6fbfe6c9775ec8cbc6868eb7847da7692a4
             </section>
 
-            <section id="graphSection">
+            <section id="graphSection" class="justify-content-center mb-6">
+                <h1 class="hidden text-center mb-4">Częste kierunki podróży</h1>
+                <canvas id="myChart"></canvas>
             </section>
-        </div>
+            </div>
     </main>
     <!-- End your project here-->
 
