@@ -1,22 +1,22 @@
 {
-  "name": "bootstrap",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/maciekdt/Bootstrap.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/maciekdt/Bootstrap/issues"
-  },
-  "homepage": "https://github.com/maciekdt/Bootstrap#readme",
-  "dependencies": {
-    "bootstrap": "^5.2.3"
-  }
+    "name": "bootstrap",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maciekdt/Bootstrap.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maciekdt/Bootstrap/issues"
+    },
+    "homepage": "https://github.com/maciekdt/Bootstrap#readme",
+    "dependencies": {
+        "mdb-ui-kit": "^6.2.0"
+    }
 }
