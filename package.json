@@ -6,10 +6,17 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maciekdt/Bootstrap.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maciekdt/Bootstrap/issues"
+  },
+  "homepage": "https://github.com/maciekdt/Bootstrap#readme",
   "dependencies": {
-    "bootstrap": "^5.2.3",
-    "material-design": "^0.0.1"
+    "bootstrap": "^5.2.3"
   }
 }
